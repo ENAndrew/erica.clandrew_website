@@ -1,0 +1,59 @@
+/* ABOUT ME PAGE */
+
+.about-wrap {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    img {
+        margin-left: 25%;
+        
+        @media #{$tablet} {
+            margin-left: 15%;
+            margin-top: 10%;
+            max-width: 250px; 
+        }
+        
+        
+        @media #{$mobile} {
+            max-width: 175px;
+            padding-top: 25px;
+        }
+    }
+    
+    .descrip-wrap {
+        font-family: "Courier New", Courier, monospace;
+        max-width: 600px;
+        font-size: 16px;
+        
+        p {
+            margin-bottom: 20px;
+            
+            @media #{$mobile} {
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+        }
+        
+        a {
+            background-color: darkseagreen;
+            color: black;
+        }
+        
+        .btn {
+            margin-top: 40px;
+            width: 150px;
+            box-shadow: 4px 3px 3px 0px #888;
+            
+            @media #{$mobile} {
+                margin-top: 15px;
+                font-size: 12px;
+                width: 100px;
+                height: 25px;
+            }
+        }
+    }
+    
+    @media #{$mobile} {
+        margin-top: 10px;
+    }
+}

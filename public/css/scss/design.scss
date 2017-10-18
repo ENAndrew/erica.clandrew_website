@@ -1,0 +1,50 @@
+/* CODE & DESIGN PAGE */
+
+.project-wrap {
+    padding-top: 70px;
+    max-width: 800px;
+    
+    .project-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    
+    .img-div {
+        flex-grow: 2;
+    }
+    
+    img {
+        max-height: 100px;
+        width: auto;
+        
+        @media #{$mobile} {
+            max-height: 50px;
+        }
+    }
+    
+    h2 {
+        text-align: center;
+        
+        @media #{$mobile} {
+            font-size: 20px;
+        }
+    }
+    
+    p {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 14px;
+        max-width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        
+        @media #{$mobile} {
+            font-size: 10px;
+        }
+    }
+    
+    @media #{$mobile} {
+        padding-top: 0px;
+    }
+}  

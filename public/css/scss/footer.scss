@@ -1,0 +1,64 @@
+/* FOOTER */
+
+.footer {
+    height: 50px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    
+    .text-left, .text-right {
+        padding-top: 10px;
+    }
+    
+    .foot-left {
+        padding-left: 10%;
+        
+        a {
+            margin-left: 20px;
+            color: white;
+            
+            @media #{$mobile} {
+                margin-left: 10px;
+            }
+        }
+    }
+    
+    .foot-right {  
+        padding-right: 10%;
+        
+        img {
+            height: 30px;
+            margin-left: 20px;
+            text-decoration: none;
+            border: 0;
+            
+            @media #{$mobile} {
+                height: 20px;
+                margin-left: 5px;
+            }
+        }
+        
+        a {
+            outline: none;
+        }
+    }
+    
+    @media #{$tablet} {
+        font-size: 15px;
+    }
+    
+     @media #{$mobile} {
+        font-size: 10px;
+    }
+}
+
+#adminModal {
+
+    .modal-body {
+        font-family: monospace;
+    }
+    
+    .btn-secondary {
+        background-color: darkseagreen;
+    }
+}

@@ -1,0 +1,47 @@
+/* HEADER STYLES */
+
+.menu-bar {
+    background-color: grey;
+    padding: 10px;
+    display: block;
+    
+    h1 {
+        margin-top: 20px;
+        color: white;
+        text-align: center;
+        padding-left: 17%;
+        
+        @media #{$mobile} {
+            font-size: 25px;
+            margin-top: 5px;
+            padding-left: 5%
+        }
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .dropdown { 
+        text-align: center;
+        
+        li {
+            font-size: 20px;
+        }
+        
+        #ddIcon {
+            max-width: 50px;
+            padding-top: 15px;
+            
+            @media #{$mobile} {
+                max-width: 30px;
+                padding-top: 0px;
+            }
+        } 
+    }
+    
+    @media #{$mobile} {
+        height: 50px;
+    }
+}

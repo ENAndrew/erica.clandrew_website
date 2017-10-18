@@ -1,0 +1,20 @@
+/* HOME PAGE CONTENT */
+
+.moth-logo {
+    text-align: center;
+    padding-top: 8%;
+    clear: both;
+    
+    
+    img {
+        
+        @media #{$tablet} {
+            padding-top: 20%;
+        }
+    
+        @media #{$mobile} {
+            max-width: 250px;
+            padding-top: 20%;    
+        }
+    }
+}

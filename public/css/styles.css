@@ -1,0 +1,235 @@
+/* GENERAL STYLES*/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+body {
+  font-family: "IM Fell Double Pica", serif;
+  padding-top: 70px; }
+
+/* HEADER STYLES */
+.menu-bar {
+  background-color: grey;
+  padding: 10px;
+  display: block; }
+  .menu-bar h1 {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding-left: 17%; }
+    @media (max-width: 767px) {
+      .menu-bar h1 {
+        font-size: 25px;
+        margin-top: 5px;
+        padding-left: 5%; } }
+  .menu-bar a {
+    color: white;
+    text-decoration: none; }
+  .menu-bar .dropdown {
+    text-align: center; }
+    .menu-bar .dropdown li {
+      font-size: 20px; }
+    .menu-bar .dropdown #ddIcon {
+      max-width: 50px;
+      padding-top: 15px; }
+      @media (max-width: 767px) {
+        .menu-bar .dropdown #ddIcon {
+          max-width: 30px;
+          padding-top: 0px; } }
+  @media (max-width: 767px) {
+    .menu-bar {
+      height: 50px; } }
+
+/* FOOTER */
+.footer {
+  height: 50px;
+  background-color: grey;
+  color: white;
+  font-size: 20px; }
+  .footer .text-left, .footer .text-right {
+    padding-top: 10px; }
+  .footer .foot-left {
+    padding-left: 10%; }
+    .footer .foot-left a {
+      margin-left: 20px;
+      color: white; }
+      @media (max-width: 767px) {
+        .footer .foot-left a {
+          margin-left: 10px; } }
+  .footer .foot-right {
+    padding-right: 10%; }
+    .footer .foot-right img {
+      height: 30px;
+      margin-left: 20px;
+      text-decoration: none;
+      border: 0; }
+      @media (max-width: 767px) {
+        .footer .foot-right img {
+          height: 20px;
+          margin-left: 5px; } }
+    .footer .foot-right a {
+      outline: none; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+      font-size: 15px; } }
+  @media (max-width: 767px) {
+    .footer {
+      font-size: 10px; } }
+
+#adminModal .modal-body {
+  font-family: monospace; }
+#adminModal .btn-secondary {
+  background-color: darkseagreen; }
+
+/* HOME PAGE CONTENT */
+.moth-logo {
+  text-align: center;
+  padding-top: 8%;
+  clear: both; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .moth-logo img {
+      padding-top: 20%; } }
+  @media (max-width: 767px) {
+    .moth-logo img {
+      max-width: 250px;
+      padding-top: 20%; } }
+
+/* CONTACT FORM */
+.form-container {
+  padding-top: 50px;
+  max-width: 500px;
+  margin-bottom: 70px;
+  font-family: "Courier New", Courier, monospace; }
+  .form-container p {
+    padding-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px; }
+    @media (max-width: 767px) {
+      .form-container p {
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px; } }
+  .form-container img {
+    max-width: 120px; }
+    @media (max-width: 767px) {
+      .form-container img {
+        max-width: 70px; } }
+  .form-container .form-group label {
+    font-size: 15px; }
+  .form-container .btn {
+    background-color: darkseagreen;
+    width: 90px;
+    font-size: 15px;
+    box-shadow: 4px 3px 3px 0px #888;
+    font-family: "IM Fell Double Pica", serif; }
+  @media (max-width: 767px) {
+    .form-container {
+      padding-top: 0px;
+      max-width: 300px; } }
+
+/* ALL GALLERY ITEMS */
+.digi-wrap {
+  max-width: 1000px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .digi-wrap .item {
+    max-height: 250px;
+    margin: 25px; }
+    .digi-wrap .item img {
+      height: 250px;
+      width: auto; }
+    @media (max-width: 767px) {
+      .digi-wrap .item {
+        margin-right: 30px;
+        margin-left: 30px; } }
+  @media (max-width: 767px) {
+    .digi-wrap {
+      margin-top: 20px;
+      justify-content: center; } }
+
+/* ABOUT ME PAGE */
+.about-wrap {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  .about-wrap img {
+    margin-left: 25%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .about-wrap img {
+        margin-left: 15%;
+        margin-top: 10%;
+        max-width: 250px; } }
+    @media (max-width: 767px) {
+      .about-wrap img {
+        max-width: 175px;
+        padding-top: 25px; } }
+  .about-wrap .descrip-wrap {
+    font-family: "Courier New", Courier, monospace;
+    max-width: 600px;
+    font-size: 16px; }
+    .about-wrap .descrip-wrap p {
+      margin-bottom: 20px; }
+      @media (max-width: 767px) {
+        .about-wrap .descrip-wrap p {
+          font-size: 12px;
+          margin-bottom: 10px; } }
+    .about-wrap .descrip-wrap a {
+      background-color: darkseagreen;
+      color: black; }
+    .about-wrap .descrip-wrap .btn {
+      margin-top: 40px;
+      width: 150px;
+      box-shadow: 4px 3px 3px 0px #888; }
+      @media (max-width: 767px) {
+        .about-wrap .descrip-wrap .btn {
+          margin-top: 15px;
+          font-size: 12px;
+          width: 100px;
+          height: 25px; } }
+  @media (max-width: 767px) {
+    .about-wrap {
+      margin-top: 10px; } }
+
+/* CODE & DESIGN PAGE */
+.project-wrap {
+  padding-top: 70px;
+  max-width: 800px; }
+  .project-wrap .project-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px; }
+  .project-wrap .img-div {
+    flex-grow: 2; }
+  .project-wrap img {
+    max-height: 100px;
+    width: auto; }
+    @media (max-width: 767px) {
+      .project-wrap img {
+        max-height: 50px; } }
+  .project-wrap h2 {
+    text-align: center; }
+    @media (max-width: 767px) {
+      .project-wrap h2 {
+        font-size: 20px; } }
+  .project-wrap p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto; }
+    @media (max-width: 767px) {
+      .project-wrap p {
+        font-size: 10px; } }
+  @media (max-width: 767px) {
+    .project-wrap {
+      padding-top: 0px; } }
+
+/*# sourceMappingURL=styles.css.map */

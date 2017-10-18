@@ -1,0 +1,30 @@
+/* GENERAL STYLES*/
+
+$prime-font: 'IM Fell Double Pica', serif;
+
+$mobile: "(max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px)";
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $prime-font;
+    padding-top: 70px;
+}
+
+
+ 
+@import "scss/header";
+@import "scss/footer"; 
+@import "scss/home";
+@import "scss/contact";
+@import "scss/gallery_item";
+@import "scss/about";
+@import "scss/design";
