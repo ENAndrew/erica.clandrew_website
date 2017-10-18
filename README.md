@@ -8,4 +8,4 @@ This site is constructed with HTML/Sass on the front end, with PHP for logic and
 
 Bootstrap is used for responsiveness and styling. Image interactions are via Lightbox.js.
 
-I also created all the insects in the layout.
+I also created all the insects in the layout.  They are features. 
